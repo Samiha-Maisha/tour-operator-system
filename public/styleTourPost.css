@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    width: 700px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #451115;
+}
+
+table{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+table tr td{
+    text-align: left;
+}
+
+table tr td{
+    padding: 5px;
+}
+
+
+form {
+    display: inline-block;
+}
+
+label,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.opt{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    width: 500px;
+    padding: 1%;
+    float: right;
+    height: 25px;
+
+    border: 2px solid #9b9696;
+    border-radius: 25px;
+}
+
+textarea{
+    font-family: Arial, sans-serif;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.pass_label{
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #e98e8e;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #773b3b;
+}
+
+
+.alertDanger{
+    margin-top: 7px;
+    font-weight: bold;
+    color: #c32727;
+    width: auto;
+    max-height: min-content;
+    text-align: center
+}
+
+.alertSuccess{
+    margin-top: 7px;
+    font-weight: bold;
+    color: #2c661b;
+    width: auto;
+    max-height: min-content;
+    text-align: center
+}
+
+
+form ul{
+    list-style: none;
+}
